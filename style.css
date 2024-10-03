@@ -3,12 +3,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    background-color: #fff9f9;
+    background-color: #f4be93;
     color: #333;
 }
 
 h1 {
-    color: #ed8f7a;
+    color: #C66344;
     text-align: center;
     font-size: 36px;
 }
@@ -17,15 +17,16 @@ p {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 20px;
+    color: #C66344;
 }
 
 .highlight {
-    color: #FF5722;
+    color: #D68369;
     font-weight: bold;
 }
 
 a {
-    color: #2196F3;
+    color: #C66344;
     text-decoration: none;
 }
 
