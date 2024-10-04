@@ -20,16 +20,9 @@ p {
     color: #C66344;
 }
 
-.highlight {
-    color: #D68369;
-    font-weight: bold;
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
-a {
-    color: #C66344;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
