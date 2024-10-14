@@ -1,28 +1,96 @@
-/* Arquivo: styles.css */
-
+/* Estilos Globais */
 body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    background-color: #f4be93;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffd9bc;
     color: #333;
 }
-
-h1 {
-    color: #C66344;
+:root {
+    --cor-de-fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #eb9b00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002f52;
+    --fonte-secundario: "Josefin Sans";
+  }
+header {
+    background-color: #f3b786;
+    color: #fff;
+    padding: 20px;
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    margin: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
-    margin-bottom: 20px;
-    color: #C66344;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+.galeria-imagens {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
+.galeria-imagens img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#cardapio ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cardapio ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#contato p {
+    font-size: 18px;
+}
+
+.social img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
